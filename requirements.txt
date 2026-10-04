@@ -7,3 +7,4 @@ wandb
 tqdm
 pandas
 gradio
+matplotlib

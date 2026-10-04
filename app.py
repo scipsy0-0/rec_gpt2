@@ -1,12 +1,6 @@
 import gradio as gr
 from justrun import generate
 
-start = "meow meow meow"
-num_samples = 1
-max_new_tokens = 128
-temperature = 0.9
-top_k = 50
-seed = 1337
 
 def func(start = "meow meow", num_samples = 1, max_new_tokens = 128, temperature = 0.9, top_k = 50, seed = 1337):
     ans = generate(start, num_samples, max_new_tokens, temperature, top_k, seed)

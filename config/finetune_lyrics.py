@@ -1,7 +1,7 @@
 import time
 
 
-dtype = "float16"
+dtype = "float32"
 compile = False
 device = "cuda"
 

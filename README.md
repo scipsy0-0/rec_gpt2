@@ -9,6 +9,8 @@
 
 файл для обучения лежит в /config/finetune_lyrics.py
 
+обучалось на tesla T4 
+
 ![alt text](assets/3.png)
 
 ![alt text](assets/image-1.png)
@@ -16,4 +18,5 @@
 ![alt text](assets/image-2.png)
 
 ### Визуализация
+была использована библиотека gradio файл app.py
 ![alt text](assets/image.png)

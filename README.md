@@ -212,13 +212,12 @@ Baby, I love you, baby
 pip install -r requirements.txt
 ```
 
-подготовка данных
-```
-python3 data/lyrics/prepare.py
-```
 
 дообучение
 
+```
+python3 data/lyrics/prepare.py
+```
 ```
 python3 train.py config/finetune_lyrics.py
 ```
@@ -227,7 +226,7 @@ python3 train.py config/finetune_lyrics.py
 
 ```
 mkdir out-lyrics
-curl https://github.com/scipsy0-0/rec_gpt2/releases/download/v1/ckpt.pt -o out-lyrics/ckpt.pt
+curl -L https://github.com/scipsy0-0/rec_gpt2/releases/download/v1/ckpt.pt -o out-lyrics/ckpt.pt
 ```
 
 запуск

@@ -208,6 +208,10 @@ Baby, I love you, baby
 
 ### Запуск
 
+```
+pip install -r requirements.txt
+```
+
 подготовка данных
 ```
 python3 data/lyrics/prepare.py
@@ -219,6 +223,13 @@ python3 data/lyrics/prepare.py
 python3 train.py config/finetune_lyrics.py
 ```
 
+либо же можно сразу достать 
+
+```
+mkdir out-lyrics
+curl https://github.com/scipsy0-0/rec_gpt2/releases/download/v1/ckpt.pt -o out-lyrics/ckpt.pt
+```
+
 запуск
 
 ```
@@ -228,4 +239,5 @@ python3 app.py
 ### Тьюториалы
 
 https://sophiamyang.medium.com/train-your-own-language-model-with-nanogpt-83d86f26705e
+
 https://github.com/karpathy/nanoGPT
